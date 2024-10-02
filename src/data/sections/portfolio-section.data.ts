@@ -40,8 +40,8 @@ const portfolioSectionData = {
         { label: 'Category', value: ['Machine Learning', 'Data science'] },
       ],
       //pdfDetails: [
-        //{ label: 'Demo', value: '#', url: '#' },
-        //{ label: 'Repository', value: '#', url: '#' },
+      //{ label: 'Demo', value: '#', url: '#' },
+      //{ label: 'Repository', value: '#', url: '#' },
       //],
       description:
         'This project explores the relationship between the selling prices of properties and the socioeconomic and infrastructure characteristics of different neighborhoods in Buenos Aires, Argentina, to determine if sellers are pricing properties fairly based on location and surrounding conditions, and to identify the most influential factors in property pricing.',
@@ -59,11 +59,11 @@ const portfolioSectionData = {
         { label: 'Team size', value: '3 people' },
         { label: 'My role', value: ['Data Analyst', 'Business Analyst'] },
         { label: 'Company', value: 'Private Security' },
-        { label: 'Category', value: ['Dashboard', 'Report','BI' ] },
+        { label: 'Category', value: ['Dashboard', 'Report', 'BI'] },
       ],
       //pdfDetails: [
-        //{ label: 'Demo', value: '#', url: '#' },
-        //{ label: 'Repository', value: '#', url: '#' },
+      //{ label: 'Demo', value: '#', url: '#' },
+      //{ label: 'Repository', value: '#', url: '#' },
       //],
       screenshots: [
         { src: import('@/assets/portfolio/dashboard-aussie-security-001.png'), alt: 'First screenshot' },
@@ -90,12 +90,10 @@ const portfolioSectionData = {
         { label: 'Category', value: ['Business Analysis', 'BI Report'] },
       ],
       //pdfDetails: [
-        //{ label: 'Demo', value: '#', url: '#' },
-        //{ label: 'Repository', value: '#', url: '#' },
+      //{ label: 'Demo', value: '#', url: '#' },
+      //{ label: 'Repository', value: '#', url: '#' },
       //],
-      screenshots: [
-        { src: import('@/assets/portfolio/dashboard-market-001.png'), alt: 'First screenshot' },
-      ],
+      screenshots: [{ src: import('@/assets/portfolio/dashboard-market-001.png'), alt: 'First screenshot' }],
       description:
         'Annual financial dashboard for a supermarket chain, providing shareholders with a clear and concise summary of financial performance, broken down by regions and branches.',
       tagsList: {
@@ -115,8 +113,8 @@ const portfolioSectionData = {
         { label: 'Category', value: ['Comercial Proyect', 'Mobile App', 'Eviroment'] },
       ],
       //pdfDetails: [
-        //{ label: 'Demo', value: '#', url: '#' },
-        //{ label: 'Repository', value: '#', url: '#' },
+      //{ label: 'Demo', value: '#', url: '#' },
+      //{ label: 'Repository', value: '#', url: '#' },
       //],
       description:
         'Conceptualized and developed a university project focused on reducing food waste by connecting restaurants and grocery stores with consumers. The app promotes sustainability by communicating discounts on near-expiry products, helping businesses minimize waste while offering affordable options to the community. ',

@@ -1,13 +1,7 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { linkedin,  website } from '../helpers/links';
-import {
-  excel,
-  mysql,
-  googleSheets,
-  powerBI,
-  msOffice,
-} from '../helpers/skills';
+import { linkedin, website } from '../helpers/links';
+import { excel, mysql, googleSheets, powerBI, msOffice } from '../helpers/skills';
 
 const experienceSectionData = {
   config: {
@@ -33,7 +27,10 @@ const experienceSectionData = {
         title: 'Technologies',
         tags: [powerBI(), excel(), googleSheets(), mysql(), msOffice()],
       },
-      links: [website({ url: 'https://specialseguridad.com/' }), linkedin({ url: 'https://ar.linkedin.com/company/specialseguridad' })],
+      links: [
+        website({ url: 'https://specialseguridad.com/' }),
+        linkedin({ url: 'https://ar.linkedin.com/company/specialseguridad' }),
+      ],
     },
     {
       role: 'Administrative Data Entry & Analyst ',
@@ -49,11 +46,11 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [ excel(), googleSheets(), msOffice()],
+        tags: [excel(), googleSheets(), msOffice()],
       },
       links: [],
     },
-/*     {
+    /*     {
       role: 'Team Lead',
       company: 'Security Company',
       image: import('@/assets/logos/gitlab-logo.png'),

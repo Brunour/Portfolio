@@ -12,13 +12,12 @@ const config = {
   },
   meta: {
     title: 'Bruno Urzua - Data & Business Analyst',
-    description:
-      'Business, finance and more with AI and big data.',
+    description: 'Business, finance and more with AI and big data.',
     faviconPath: '/src/assets/my-image.jpg',
   },
   //pdf: {
-    //footer:
-      //'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+  //footer:
+  //'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
   //},
 } as const satisfies ReadonlyDeep<Config>;
 

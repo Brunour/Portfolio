@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import {github, linkedin, mail } from '../helpers/links';
+import { github, linkedin, mail } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-profile.jpg'),
+  image: import('@/assets/my-image.jpg'),
   fullName: 'Bruno L. Urzúa',
   role: 'Business & Data Analyst',
   details: [
@@ -32,7 +32,11 @@ const mainSectionData = {
     url: '/Cv-Bruno-Urzua-2024.pdf',
     downloadedFileName: 'Cv-Bruno-Urzua-2024.pdf',
   },
-  links: [mail({ url: 'mailto:L.brunourzua@gmail.com' }), github({ url: 'https://github.com/Brunour' }), linkedin({ url: 'https://www.linkedin.com/in/bruno-urzua/' })],
+  links: [
+    mail({ url: 'mailto:L.brunourzua@gmail.com' }),
+    github({ url: 'https://github.com/Brunour' }),
+    linkedin({ url: 'https://www.linkedin.com/in/bruno-urzua/' }),
+  ],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;
