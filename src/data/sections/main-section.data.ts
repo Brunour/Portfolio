@@ -29,8 +29,8 @@ const mainSectionData = {
   tags: [{ name: 'Data Analyst' }, { name: 'Business Analyst ' }, { name: 'Business Intelligence' }],
   action: {
     label: 'Download CV',
-    url: '/Cv-Bruno-Urzua-2024.pdf',
-    downloadedFileName: 'Cv-Bruno-Urzua-2024.pdf',
+    url: '/CV-Bruno-Urzua.pdf',
+    downloadedFileName: 'CV-Bruno-Urzua.pdf',
   },
   links: [
     mail({ url: 'mailto:L.brunourzua@gmail.com' }),
