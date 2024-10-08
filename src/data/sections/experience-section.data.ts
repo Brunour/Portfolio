@@ -12,14 +12,31 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Business Office Manager',
+      role: 'BI Data Analyst ',
+      company: 'Freelance',
+      image: import('@/assets/logos/freelance.png'),
+      dates: [new Date('2023-01'), new Date('2024-07')],
+      description: `
+        - Developed Power BI and Excel reports for non-technical stakeholders, improving report accessibility and user engagement by 40%.
+        - Designed data-driven strategies with MySQL, leading to a 20% increase in operational efficiency through better KPI tracking.
+        - Worked with cross-functional teams in 4 different industries, fostering a data-driven mindset and improving data literacy for better decision-making.
+        - Maintained KPI reports, enabling real-time performance monitoring.
+        - Created filing systems for client documentation, improving access to critical information.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [powerBI(), excel(), googleSheets(), mysql(), msOffice()],
+      },
+      links: [],
+    },
+    {
+      role: 'BI Analyst',
       company: 'Special Seguridad',
       image: import('@/assets/logos/company-1.jpg'),
-      dates: [new Date('2019-09'), new Date('2024-06')],
+      dates: [new Date('2019-09'), new Date('2022-11')],
       description: `
-        - Over 4 years, I progressed through several roles, ultimately becoming a key contributor in implementing a data-driven approach across the company.
-        - Automated data reporting and optimized processes using Power BI and SQL, reducing manual workflows by 30%.
-        - Introduced business intelligence tools to simplify operations, improving resource allocation and decision-making.
+        - Over 3 years, I progressed through several roles, ultimately becoming a key contributor in implementing a data-driven approach across the company.
+        - Introduced business intelligence tools like Power BI, to simplify operations, improving resource allocation and decision-making.
         - Empowered leadership with tailored dashboards, enabling data-based decision-making and real-time insights into key metrics.
         - Streamlined financial and operational workflows using Excel automation, enhancing productivity and reducing errors.
       `,
@@ -31,24 +48,6 @@ const experienceSectionData = {
         website({ url: 'https://specialseguridad.com/' }),
         linkedin({ url: 'https://ar.linkedin.com/company/specialseguridad' }),
       ],
-    },
-    {
-      role: 'Administrative Data Entry & Analyst ',
-      company: 'Security Company',
-      image: import('@/assets/logos/company-2.png'),
-      dates: [new Date('2018-06'), new Date('2019-09')],
-      description: `
-        - Ensured 98% accuracy in operational and financial data entry.
-        - Automated administrative processes in Excel, reducing processing time by 40%.
-        - Maintained daily KPI reports, enabling real-time performance monitoring.
-        - Created filing systems for client documentation, improving access to critical information.
-
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [excel(), googleSheets(), msOffice()],
-      },
-      links: [],
     },
     /*     {
       role: 'Team Lead',

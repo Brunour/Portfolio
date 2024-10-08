@@ -25,8 +25,8 @@ const mainSectionData = {
     { label: '#', value: '#', url: '/', fullRow: true },
   ],
   description:
-    'Hi, I’m Bruno, a data-driven professional with 4 years of experience working with data, with business background. I leverage data analytics to streamline processes and support informed decision-making, blending insights with a focus on delivering impactful solutions.',
-  tags: [{ name: 'Data Analyst' }, { name: 'Business Analyst ' }, { name: 'Business Intelligence' }],
+    'Hi, I’m Bruno, a BI Analyst with 4 years of experience working with data, with business background. I leverage data analytics to streamline processes and support informed decision-making, blending insights with a focus on delivering impactful solutions.',
+  tags: [{ name: 'Business Intelligence' }, { name: 'Data Analyst ' }, { name: 'Business Analyst' }],
   action: {
     label: 'Download CV',
     url: '/CV-Bruno-Urzua.pdf',
