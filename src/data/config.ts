@@ -11,9 +11,9 @@ const config = {
     },
   },
   meta: {
-    title: 'Bruno Urzua - Data & Business Analyst',
+    title: 'Bruno Urzua - Business Intelligence • Data Analyst',
     description: 'Business, finance and more with AI and big data.',
-    faviconPath: '/src/assets/my-image.jpg',
+    faviconPath: '/public/favicon-32x32.png',
   },
   //pdf: {
   //footer:

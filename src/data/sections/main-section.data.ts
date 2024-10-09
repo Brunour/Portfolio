@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/my-image.jpg'),
   fullName: 'Bruno L. Urzúa',
-  role: 'Business & Data Analyst',
+  role: 'Business Intelligence & Data Analyst',
   details: [
     //{ label: 'Phone', value: '#', url: '#' },
     //{ label: 'Email', value: 'L.brunourzua@gmail.com', url: 'mailto:L.brunourzua@gmail.com' },
