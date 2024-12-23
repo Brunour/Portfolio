@@ -32,7 +32,7 @@ const portfolioSectionData = {
     {
       name: 'Machine Learning Property Valuation',
       image: import('@/assets/portfolio/ml-proyect.png'),
-      dates: [new Date('2023'), new Date('2024')],
+      dates: [new Date('2023'), new Date('')],
       details: [
         { label: 'Team size', value: '1 person' },
         { label: 'My role', value: ['Researcher', 'Analyst'] },
@@ -54,7 +54,7 @@ const portfolioSectionData = {
     {
       name: 'History Resume Company',
       image: import('@/assets/portfolio/bi-other-proyect.png'),
-      dates: [new Date('2022'), new Date('2024')],
+      dates: [new Date('2024'), new Date('')],
       details: [
         { label: 'Team size', value: '3 people' },
         { label: 'My role', value: ['Data Analyst', 'Business Analyst'] },
@@ -82,10 +82,10 @@ const portfolioSectionData = {
     {
       name: 'Dashboard Annual Report',
       image: import('@/assets/portfolio/bi-proyect.png'),
-      dates: [new Date('2018'), new Date('2020')],
+      dates: [new Date('2024'), new Date('')],
       details: [
-        { label: 'Team size', value: '5 people' },
-        { label: 'My role', value: ['BI Developer', 'User Support'] },
+        { label: 'Team size', value: '3 people' },
+        { label: 'My role', value: ['BI Analyst', 'Data Analyst'] },
         { label: 'Company', value: 'None' },
         { label: 'Category', value: ['Business Analysis', 'BI Report'] },
       ],
