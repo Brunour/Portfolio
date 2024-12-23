@@ -29,7 +29,7 @@ const mainSectionData = {
   tags: [{ name: 'Data Analitycs' }, { name: 'Business Analytics' }, { name: 'Business Intelligence' }],
   action: {
     label: 'Download CV',
-    url: '/CV-Bruno-Urzua.pdf',
+    url: '/Cv-Bruno-Urzua-2024.pdf',
     downloadedFileName: 'Cv-Bruno-Urzua-2024.pdf',
   },
   links: [
