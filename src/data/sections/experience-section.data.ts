@@ -1,7 +1,7 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { linkedin, website } from '../helpers/links';
-import { excel, mysql, googleSheets, powerBI, msOffice } from '../helpers/skills';
+import { excel, mysql, googleSheets, powerBI, msOffice, clickup, slack, python } from '../helpers/skills';
 
 const experienceSectionData = {
   config: {
@@ -12,7 +12,7 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'BI Data Analyst ',
+      role: 'Data Solution Specialist',
       company: 'Freelance',
       image: import('@/assets/logos/freelance.png'),
       dates: [new Date('2023-01'), new Date('2024-07')],
@@ -25,24 +25,25 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [powerBI(), excel(), googleSheets(), mysql(), msOffice()],
+        tags: [python(), powerBI(), googleSheets(), mysql(), msOffice(), clickup()],
       },
       links: [],
     },
     {
-      role: 'BI Analyst',
+      role: 'Busines Data Analyst',
       company: 'Special Seguridad',
       image: import('@/assets/logos/company-1.jpg'),
       dates: [new Date('2019-09'), new Date('2022-11')],
       description: `
-        - Over 3 years, I progressed through several roles, ultimately becoming a key contributor in implementing a data-driven approach across the company.
-        - Introduced business intelligence tools like Power BI, to simplify operations, improving resource allocation and decision-making.
-        - Empowered leadership with tailored dashboards, enabling data-based decision-making and real-time insights into key metrics.
-        - Streamlined financial and operational workflows using Excel automation, enhancing productivity and reducing errors.
+        - In Over 5 years, I progressed through several roles, ultimately becoming a key contributor in implementing a data-driven approach across the company.
+        - Optimize internal processes with a data-driven and technological approach, improving both internal and external communication and access to key information for strategic decision-making.
+        - Design and maintain interactive dashboards to present analysis and results to senior executives.
+        - Analyze digital metrics using Google Analytics and Google Ads to evaluate digital performance.
+        - Manage databases with SQL and Google Sheets, and implement ETL processes, data models, and pipelines to ensure data reliability and efficiency.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [powerBI(), excel(), googleSheets(), mysql(), msOffice()],
+        tags: [powerBI(), excel(), googleSheets(), mysql(), clickup(), slack()],
       },
       links: [
         website({ url: 'https://specialseguridad.com/' }),

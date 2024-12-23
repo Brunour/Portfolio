@@ -24,6 +24,10 @@ import {
   docker,
   pytorch,
   databricks,
+  dialogflow, 
+  slack, 
+  clickup,
+  rasa,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -35,7 +39,7 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      title: 'For Data Analysis',
+      title: 'For Data Work',
       skills: [
         mysql(),
         python(),
@@ -52,17 +56,17 @@ const skillsSectionData = {
     },
     {
       title: 'I Used It On Occasion',
-      skills: [html(), css(), astro(), blogger()],
+      skills: [slack(), clickup(), html(), css(), astro(), blogger()],
     },
     {
       title: 'I Would Like To Learn And Work With',
-      skills: [azure(), aws(), tensorflow(), databricks(), pytorch(), tableau(), apacheSpark(), docker()],
+      skills: [azure(), aws(), tensorflow(), databricks(), pytorch(), tableau(), apacheSpark(), docker(), dialogflow(), rasa()],
     },
     {
       title: 'I speak',
       skills: [
         { icon: 'circle-flags:es-variant', name: 'Spanish - Native' },
-        { icon: 'circle-flags:us', name: 'English - C1' },
+        { icon: 'circle-flags:us', name: 'English - B2 Upper Intermediate' },
       ],
     },
   ],

@@ -255,3 +255,39 @@ export const statsmodels = createSkillFactory({
   iconColor: '#AA3754',
   url: 'https://www.statsmodels.org/',
 });
+
+export const slack = createSkillFactory({
+  name: 'Slack',
+  icon: 'simple-icons:slack',
+  iconColor: '#4A154B',
+  url: 'https://slack.com/',
+});
+
+export const clickup = createSkillFactory({
+  name: 'ClickUp',
+  icon: 'simple-icons:clickup',
+  iconColor: '#7B68EE',
+  url: 'https://clickup.com/',
+});
+
+export const dialogflow = createSkillFactory({
+  name: 'Dialogflow',
+  icon: 'simple-icons:dialogflow',
+  iconColor: '#FF9800',
+  url: 'https://dialogflow.cloud.google.com/',
+});
+
+export const rasa = createSkillFactory({
+  name: 'Rasa',
+  icon: 'simple-icons:rasa',
+  iconColor: '#5A3E85',
+  url: 'https://rasa.com/',
+});
+
+export const huggingFaceTransformers = createSkillFactory({
+  name: 'Hugging Face Transformers',
+  icon: 'simple-icons:c',
+  iconColor: '#FFD857',
+  url: 'https://huggingface.co/transformers/',
+});
+

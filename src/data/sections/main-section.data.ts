@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/my-image.jpg'),
   fullName: 'Bruno L. Urzúa',
-  role: 'Business Intelligence & Data Analyst',
+  role: 'BI & Data Analyst',
   details: [
     //{ label: 'Phone', value: '#', url: '#' },
     //{ label: 'Email', value: 'L.brunourzua@gmail.com', url: 'mailto:L.brunourzua@gmail.com' },
@@ -25,12 +25,12 @@ const mainSectionData = {
     { label: '#', value: '#', url: '/', fullRow: true },
   ],
   description:
-    'Hi, I’m Bruno, a BI Analyst with 4 years of experience working with data, with business background. I leverage data analytics to streamline processes and support informed decision-making, blending insights with a focus on delivering impactful solutions.',
-  tags: [{ name: 'Business Intelligence' }, { name: 'Data Analyst ' }, { name: 'Business Analyst' }],
+    'Hi, I’m Bruno, a data and tech professional with 3+ years of experience transforming business issues into innovative, data-driven solutions. I excel at automating processes, streamlining access to information, and optimizing workflows. Let’s work together to achieve impactful results.',
+  tags: [{ name: 'Data Analitycs' }, { name: 'Business Analytics' }, { name: 'Business Intelligence' }],
   action: {
     label: 'Download CV',
     url: '/CV-Bruno-Urzua.pdf',
-    downloadedFileName: 'CV-Bruno-Urzua.pdf',
+    downloadedFileName: 'Cv-Bruno-Urzua-2024.pdf',
   },
   links: [
     mail({ url: 'mailto:L.brunourzua@gmail.com' }),
