@@ -290,4 +290,3 @@ export const huggingFaceTransformers = createSkillFactory({
   iconColor: '#FFD857',
   url: 'https://huggingface.co/transformers/',
 });
-

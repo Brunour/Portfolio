@@ -24,8 +24,8 @@ import {
   docker,
   pytorch,
   databricks,
-  dialogflow, 
-  slack, 
+  dialogflow,
+  slack,
   clickup,
   rasa,
 } from '../helpers/skills';
@@ -60,7 +60,18 @@ const skillsSectionData = {
     },
     {
       title: 'I Would Like To Learn And Work With',
-      skills: [azure(), aws(), tensorflow(), databricks(), pytorch(), tableau(), apacheSpark(), docker(), dialogflow(), rasa()],
+      skills: [
+        azure(),
+        aws(),
+        tensorflow(),
+        databricks(),
+        pytorch(),
+        tableau(),
+        apacheSpark(),
+        docker(),
+        dialogflow(),
+        rasa(),
+      ],
     },
     {
       title: 'I speak',
